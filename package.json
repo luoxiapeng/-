@@ -1,0 +1,14 @@
+{
+  "name": "MyView_ui",
+  "version": "1.0.0",
+  "description": "ui框架",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "yarn docs:build && scripts/deploy-gh.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luoxiapeng",
+  "license": "ISC"
+}
